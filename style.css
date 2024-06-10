@@ -142,3 +142,8 @@ footer #footer-content {
   align-items: center;
   gap: 90px;
 }
+
+.bottom-description {
+  font-size: 13px;
+  opacity: 0.7;
+}
