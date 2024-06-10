@@ -8,10 +8,52 @@ body,
 html {
   height: 100%;
   width: 100%;
+  color: #fff;
 }
 
 #main {
   height: 100%;
   width: 100%;
-  background-color: #dadada;
+  background-image: url(./assets/background-image.avif);
+  background-position: center;
+  background-size: cover;
+}
+
+#logo {
+  border: 2px solid #fff;
+  padding: 10px 15px;
+  border-radius: 50%;
+  margin-left: 25px;
+}
+
+#nav-bar {
+  height: 100px;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+#nav-bar #nav-option {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-60%, -50%);
+  /* top: 50px; */
+}
+
+#nav-bar #nav-options {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 45px;
+}
+
+#icon span {
+  margin-right: 25px;
+  font-size: 35px;
+  /* color: black; */
+  /* background-color: #fff; */
+  border-color: #fff;
 }
